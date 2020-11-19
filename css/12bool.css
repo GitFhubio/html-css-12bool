@@ -1,0 +1,54 @@
+/* reset */
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* regole generali */
+body{ font-family: Arial sans-serif;
+  font-size:16px;
+}
+h1,h2,h3,h4,h5,p{color:#000;
+padding-bottom:30px;
+}
+.big-text{font-size:70px;}
+.med-text{font-size:40px;}
+.normal-text{font-size:20px;}
+.small-text{font-size:14px;}
+
+ul{list-style: none;}
+
+a{text-decoration:none;
+  color:#fff;}
+
+.container{
+  max-width:1170px;
+  margin:0 auto;}
+
+.container::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+[class*="col-"]{float:left;}
+
+.col-1{width: calc(100% / 12);}
+.col-2{width: calc((100% / 12) * 2);}
+.col-3{width: calc((100% / 12) * 3);}
+.col-4{width: calc((100% / 12) * 4);}
+.col-5{width: calc((100% / 12) * 5);}
+.col-6{width:50%;}
+.col-7{width: calc((100% / 12) * 7);}
+.col-8{width: calc((100% / 12) * 8);}
+.col-9{width: calc((100% / 12) * 9);}
+.col-10{width: calc((100% / 12) * 10);}
+.col-11{width: calc((100% / 12) * 11);}
+.col-12{width:100%;}
+
+[class*="col-"] .container
+{
+  padding:20px;
+}
+
+}
