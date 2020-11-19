@@ -45,3 +45,16 @@ a{text-decoration:none;
 .col-10{width: calc((100% / 12) * 10);}
 .col-11{width: calc((100% / 12) * 11);}
 .col-12{width:100%;}
+
+.col-offset-1{
+  margin-left:calc(100% / 12);
+}
+.col-offset-2{
+  margin-left:calc((100% / 12) * 2) ;
+}
+.col-offset-3{
+  margin-left:calc((100% / 12) * 3) ;
+}
+.col-offset-4{
+  margin-left:calc((100% / 12) * 4) ;
+}
